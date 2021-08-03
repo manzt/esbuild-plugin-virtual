@@ -1,0 +1,27 @@
+{
+  "name": "esbuild-plugin-virtual",
+  "version": "0.0.0",
+  "description": "An esbuild plugin which loads virutal modules from memory.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "type": "module",
+  "keywords": [
+    "esbuild",
+    "plugin",
+    "virtual",
+    "vite"
+  ],
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "prepare": "tsc --declaration --emitDeclarationOnly --allowJs index.js"
+  },
+  "author": "Trevor Manz",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.12.17",
+    "typescript": "^4.3.5"
+  }
+}
