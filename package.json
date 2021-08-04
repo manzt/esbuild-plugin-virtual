@@ -1,6 +1,6 @@
 {
   "name": "esbuild-plugin-virtual",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "An esbuild plugin which loads virutal modules from memory.",
   "main": "index.js",
   "types": "index.d.ts",
